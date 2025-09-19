@@ -1,0 +1,25 @@
+git#Path:- C:\Users\DELL\PycharmProjects\GitRepo104\GitandGithubCommands.txt
+
+>> For first time need to configure
+# git config --global user.name "kunalg95"  (able to set name which is identifier for thr credit)
+# git config --global user.email "kunal.goyal73@gmail.com" (able to set mail which refers to each history going forward)
+
+>> to add set automatic command line coloring for easy reviewing
+# git config --global color.ui auto
+
+>> Mandatory Commands
+# git init
+
+>> to create remote connection
+# git remote add origin https://github.com/kunalg95/GitDemo104.git
+
+>> To raise pull request(means we were able to clone our application)
+git pull origin main
+
+>> Process to push the code in github
+# git status                    (files will be in red color)
+# git add .                     (add all new files)
+# git add filename              (to add particular filename)
+# git status                    (now new added files will be in green color)
+# git commit -m "Message as per changes"
+# git push
